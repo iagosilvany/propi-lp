@@ -20,7 +20,7 @@
 
         $mail->setFrom($email, $name); // por restrições do Google, o e-mail pode chegar com o remetente iagosilvany@gmail.com
         $mail->AddReplyTo($email, $name); // mas pelo menos ao responder, podemos direcioná-los ao e-mail correto
-        $mail->addAddress('iagosilvany@gmail.com', 'Iago Silvany');
+        $mail->addAddress('mathews.neves21@gmail.com', 'Matheus Neves');
         $mail->Subject = 'Novo investidor interessado na Propi!';
         $mail->Body = 
         'Alguém se interessou em investir pela Propi! Confira:<br><br>
