@@ -10,3 +10,6 @@ Designed by: Bruno Arruda
 - add `id='interessados_form'` on `formulario.html` -> `<form>` element
 - add `id='btn_submit'` on `formulario.html` -> `<div class="overlap-group-nitdY1">` element
 - erase `javascript:animaSubmitForm('form4')` on -> `formulario.html` -> `<a href="javascript:animaSubmitForm('form4')">` element
+
+### Don't forget:
+Run `composer install` after cloning it

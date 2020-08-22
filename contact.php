@@ -5,9 +5,9 @@
 
     $mail = new PHPMailer\PHPMailer\PHPMailer(TRUE);
 
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
+    $name = $_POST['nome0'];
+    $email = $_POST['eMail1'];
+    $phone = $_POST['telefone2'];
 
     try {
         $mail->isSMTP();
