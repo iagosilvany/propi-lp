@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# browser requests html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.html
+RewriteRule ^/?(.*)\.html$ /$1 [L,R=301]
+
+# check to see if the request is for a html file:
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^/?(.*)$ /$1.html [L]

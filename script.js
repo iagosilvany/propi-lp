@@ -2,6 +2,7 @@ $("#btn_submit").click(function(){
     $("#btn_submit").attr("disabled", true);
     $("#btn_submit").html("Enviando...");
     values = $('#interessados_form').serialize();
+    console.log(values);
     $.ajax({
         url: 'contact.php',
         type: 'POST',
@@ -19,4 +20,4 @@ $("#btn_submit").click(function(){
             $("#btn_submit").html("Algo deu errado.");
         }
     })
-}); 
+});
