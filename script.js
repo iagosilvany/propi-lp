@@ -1,8 +1,10 @@
 $("#btn_submit").click(function(){
-    $("#btn_submit").attr("disabled", true);
+    $("#img_send").css("display", "none");
     $("#btn_submit").html("Enviando...");
+    $("#btn_submit").css("color", "white");
+    $("#btn_submit").css("text-align", "center");
+    $("#btn_submit").css("line-height", "50px");
     values = $('#interessados_form').serialize();
-    console.log(values);
     $.ajax({
         url: 'contact.php',
         type: 'POST',
@@ -10,14 +12,14 @@ $("#btn_submit").click(function(){
         dataType: 'json',
         success: function(response) {
             if(response.status == 'ok') {
-                // redirect formulario concluído
-                $("#btn_submit").html("E-mail enviado!");
+                $("#btn_submit").html("E-mail enviado :)");
+                window.location.replace('/formularioconfirmado');
             } else {
                 $("#btn_submit").html("Algo deu errado!");
             }
         },
         error: function(){
-            $("#btn_submit").html("Algo deu errado.");
+            $("#btn_submit").html("Algo deu errado :(");
         }
     })
 });

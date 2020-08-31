@@ -1,13 +1,14 @@
 <?php
 
+    include_once('vendor/phpmailer/phpmailer/src/Exception.php');
     include_once('vendor/phpmailer/phpmailer/src/PHPMailer.php');
     include_once('vendor/phpmailer/phpmailer/src/SMTP.php');
 
     $mail = new PHPMailer\PHPMailer\PHPMailer(TRUE);
 
-    $name = $_POST['nome0'];
-    $email = $_POST['eMail1'];
-    $phone = $_POST['telefone2'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
 
     try {
         $mail->isSMTP();

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=OpenSans:400|Poppins:700,500|Open+Sans:700,400,600|Nunito:400|Font+Awesome%205%20Pro:200');
+@import url('https://fonts.googleapis.com/css?family=Font+Awesome%205%20Pro:200|Poppins:700,500|Open+Sans:400,700,600|Nunito:400');
 
 
 /* .anima-animate-appear prefix for appear animations */
@@ -127,7 +127,6 @@ a {
 }
 .font-class-2 {
   font-family         : "Open Sans", Helvetica, Arial, serif;
-  line-height         : 27.0px;
 }
 .font-class-3 {
   font-family         : Nunito, Helvetica, Arial, serif;
@@ -138,11 +137,12 @@ a {
   font-weight         : 700;
 }
 .font-class-5 {
-  font-family         : Open Sans, Helvetica, Arial, serif;
+  font-family         : Poppins, Helvetica, Arial, serif;
   font-weight         : 700;
 }
 .font-class-6 {
-  font-family         : Poppins, Helvetica, Arial, serif;
+  color               : var(--auto-palette-color-1);
+  font-family         : Open Sans, Helvetica, Arial, serif;
   font-weight         : 700;
 }
 .font-class-7 {
@@ -158,586 +158,401 @@ a {
   letter-spacing      : 0.20px;
 }
 .font-class-9 {
-  color               : var(--auto-palette-color-4);
+  color               : var(--auto-palette-color-3);
   font-family         : Poppins, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 500;
   letter-spacing      : 0.50px;
 }
 :root {
-  --auto-palette-color-1: rgba(0,0,0,0.600000023842);
-  --auto-palette-color-2: rgba(0,0,0,1.0);
-  --auto-palette-color-3: rgba(0,0,0,0.870000004768);
-  --auto-palette-color-4: rgba(255,255,255,1.0);
-  --auto-palette-color-5: rgba(0,0,0,0.670000016689);
-  --auto-palette-color-6: rgba(255,255,255,0.870000004768);
-  --auto-palette-color-7: rgba(255,255,255,0.670000016689);
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(0,0,0,0.870000004768);
+  --auto-palette-color-3: rgba(255,255,255,1.0);
+  --auto-palette-color-4: rgba(0,0,0,0.670000016689);
+  --auto-palette-color-5: rgba(255,255,255,0.870000004768);
+  --auto-palette-color-6: rgba(255,255,255,0.670000016689);
 }
-.formulario .auto-flex2-Y3OEMz {
-  align-items         : center;
+.formulario .the-wise-man-therefo-yKOgiq {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 27px;
-  justify-content     : flex-start;
-  margin-left         : 1.0px;
-  margin-top          : 10px;
-  position            : relative;
-  width               : auto;
-}
-.formulario .overlap-group-nitdY1 {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 50px;
-  margin-top          : 36px;
-  position            : relative;
-  width               : 260px;
-}
-.formulario .auto-flex-DHbpMV {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  position            : relative;
-  width               : 656px;
-}
-.formulario .auto-flex1-HuufC1 {
-  align-items         : center;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 27px;
-  justify-content     : flex-start;
-  margin-left         : 0.25px;
-  margin-top          : 35px;
-  position            : relative;
-  width               : auto;
-}
-.formulario .vector-6j7MY7 {
-  background-color    : rgba(255,255,255,0);
-  height              : 24px;
-  left                : 3px;
-  position            : absolute;
-  top                 : 13px;
-  width               : 37px;
-}
-.formulario .vector-nD3C8V {
-  background-color    : rgba(255,255,255,0);
-  height              : 19px;
-  left                : -0px;
-  position            : absolute;
-  top                 : -0px;
-  width               : 43px;
-}
-.formulario .the-wise-man-therefo-sHmNvm {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-4);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-3);
   font-size           : 18.0px;
   height              : auto;
+  left                : 152px;
   line-height         : 27.0px;
-  margin-top          : 25px;
-  min-height          : 81px;
-  position            : relative;
+  position            : absolute;
   text-align          : left;
+  top                 : 1050px;
   width               : 656px;
 }
-.formulario .body-Oceww9 {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-left         : 2.0px;
-  margin-top          : 20px;
-  position            : relative;
-  width               : 1142px;
-}
-.formulario .amazing-works-37txR9 {
+.formulario .amazing-works-t4iFqh {
   background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-2);
   font-size           : 52.0px;
   height              : auto;
+  left                : 150px;
   line-height         : 65.0px;
-  margin-bottom       : -5px;
-  min-height          : 60px;
-  position            : relative;
+  position            : absolute;
   text-align          : left;
+  top                 : 140px;
   width               : 1142px;
 }
-.formulario .projects-that-have-b-JgmHet {
+.formulario .projects-that-have-b-FP4FXO {
   background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-5);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-4);
   font-size           : 20.0px;
   height              : auto;
-  margin-top          : 20px;
-  min-height          : 220px;
-  position            : relative;
+  left                : 150px;
+  position            : absolute;
   text-align          : left;
+  top                 : 220px;
   width               : 1142px;
 }
-.formulario .newsletter-EJFiuD {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-top          : 50px;
-  min-height          : 256px;
-  position            : relative;
-  width               : 461px;
+.formulario .span1-FP4FXO {
+  color               : rgba(0,0,0,0.670000016689);
+  font-family         : Open Sans, Helvetica, Arial, serif;
+  font-weight         : 400;
+  letter-spacing      : 0.00px;
 }
-.formulario .nome-Qnq41z {
+.formulario .span2-FP4FXO {
+  color               : rgba(0,0,0,0.670000016689);
+  font-family         : Open Sans, Helvetica, Arial, serif;
+  font-weight         : 700;
+  letter-spacing      : 0.00px;
+}
+.formulario .span3-FP4FXO {
+  color               : rgba(0,0,0,0.670000016689);
+  font-family         : Open Sans, Helvetica, Arial, serif;
+  font-weight         : 400;
+  letter-spacing      : 0.00px;
+}
+.formulario .nome-9MVkFj {
   background-color    : rgba(0,0,0,0);
   border              : 0;
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-2);
   font-size           : 22.0px;
   height              : 33px;
+  left                : 149px;
   line-height         : 33.0px;
-  margin-left         : -1.0px;
-  margin-top          : -1px;
   padding             : 0;
-  position            : relative;
+  position            : absolute;
   resize              : none;
   text-align          : left;
+  top                 : 489px;
   width               : 462px;
 }
-.formulario .nome-Qnq41z::placeholder {
+.formulario .nome-9MVkFj::placeholder {
   color               : rgba(0,0,0,0.522000002861);
 }
-.formulario .e-mail-8AXwBP {
+.formulario .e-mail-a7BzWS {
   background-color    : rgba(0,0,0,0);
   border              : 0;
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-2);
   font-size           : 22.0px;
   height              : 33px;
+  left                : 149px;
   line-height         : 33.0px;
-  margin-left         : -1.0px;
-  margin-top          : 49px;
   padding             : 0;
-  position            : relative;
+  position            : absolute;
   resize              : none;
   text-align          : left;
+  top                 : 591px;
   width               : 462px;
 }
-.formulario .e-mail-8AXwBP::placeholder {
+.formulario .e-mail-a7BzWS::placeholder {
   color               : rgba(0,0,0,0.522000002861);
 }
-.formulario .telefone-GmrziP {
+.formulario .telefone-xy70xG {
   background-color    : rgba(0,0,0,0);
   border              : 0;
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-2);
   font-size           : 22.0px;
   height              : 33px;
+  left                : 149px;
   line-height         : 33.0px;
-  margin-left         : -1.0px;
-  margin-top          : 49px;
   padding             : 0;
-  position            : relative;
+  position            : absolute;
   resize              : none;
   text-align          : left;
+  top                 : 693px;
   width               : 462px;
 }
-.formulario .telefone-GmrziP::placeholder {
+.formulario .telefone-xy70xG::placeholder {
   color               : rgba(0,0,0,0.522000002861);
 }
-.formulario .rectangle-odu560 {
-  background-color    : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 18px;
-  position            : relative;
-  width               : 460px;
-}
-.formulario .rectangle-nKBhHb {
-  background-color    : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 18px;
-  position            : relative;
-  width               : 460px;
-}
-.formulario .rectangle-474nSj {
-  background-color    : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 18px;
-  position            : relative;
-  width               : 460px;
-}
-.formulario .bg-BCepig {
+.formulario .rectangle-pwJWlx {
   background-color    : var(--auto-palette-color-2);
+  height              : 2px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 540px;
+  width               : 460px;
+}
+.formulario .rectangle-9pCJ9o {
+  background-color    : var(--auto-palette-color-2);
+  height              : 2px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 642px;
+  width               : 460px;
+}
+.formulario .rectangle-CY0yGy {
+  background-color    : var(--auto-palette-color-2);
+  height              : 2px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 744px;
+  width               : 460px;
+}
+.formulario .bg-MTp8bP {
+  background-color    : var(--auto-palette-color-1);
   border-radius       : 40.0px;
   cursor              : pointer;
   height              : 50px;
-  left                : 0px;
+  left                : 150px;
   position            : absolute;
-  top                 : 0px;
+  top                 : 782px;
   width               : 260px;
 }
-.formulario .button-fbu1pt {
+.formulario .button-6K8feB {
   background-color    : rgba(255,255,255,0);
   height              : 13px;
-  left                : 106px;
+  left                : 256px;
   position            : absolute;
-  top                 : 18px;
+  top                 : 800px;
   width               : 50px;
 }
-.formulario .header-6IR25F {
-  align-items         : center;
-  background-color    : var(--auto-palette-color-4);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
+.formulario .bg-QOBEvQ {
+  background-color    : var(--auto-palette-color-3);
   height              : 120px;
-  justify-content     : flex-start;
-  min-width           : 1920px;
-  padding             : 0 390.0px;
-  position            : relative;
-  width               : auto;
+  left                : -240px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1920px;
 }
-.formulario .logo-wsuET1 {
-  align-items         : flex-start;
+.formulario .logo-afiKGJ {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
   cursor              : pointer;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
   height              : 60px;
-  justify-content     : flex-start;
+  left                : 150px;
   overflow            : hidden;
-  position            : relative;
+  position            : absolute;
+  top                 : 30px;
   width               : 183px;
 }
-.formulario .group-Ku1qDa {
-  align-items         : flex-start;
-  align-self          : flex-end;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 44px;
-  justify-content     : flex-start;
-  margin-bottom       : 0.0px;
-  margin-left         : 17px;
-  min-width           : 110px;
-  position            : relative;
-  width               : auto;
-}
-.formulario .vector-wCU8Ex {
+.formulario .vector-ZrB35Y {
   background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 33px;
-  margin-left         : 0px;
-  margin-top          : 1.82px;
-  position            : relative;
-  width               : 23px;
-}
-.formulario .vector-N7L1xN {
-  align-self          : center;
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 26px;
-  margin-bottom       : 1.21px;
-  margin-left         : 4px;
-  position            : relative;
-  width               : 16px;
-}
-.formulario .vector-OPRi7P {
-  align-self          : center;
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 26px;
-  margin-bottom       : 1.66px;
-  margin-left         : 2px;
-  position            : relative;
-  width               : 24px;
-}
-.formulario .vector-DXl9lx {
-  align-self          : flex-end;
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 36px;
-  margin-bottom       : -0.14px;
-  margin-left         : 4px;
-  position            : relative;
-  width               : 23px;
-}
-.formulario .vector-G3DfQU {
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 35px;
-  margin-left         : 4px;
-  margin-top          : -0.21px;
-  position            : relative;
-  width               : 8px;
-}
-.formulario .group-E6d16m {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 50px;
-  margin-left         : 0px;
-  position            : relative;
-  width               : 56px;
-}
-.formulario .vector-zcExfp {
-  background-color    : rgba(5,5,5,0);
-  height              : 32px;
-  left                : 4px;
+  height              : 54.17%;
+  left                : 39.85%;
   position            : absolute;
-  top                 : 18px;
-  width               : 49px;
+  top                 : 29.00%;
+  width               : 12.30%;
 }
-.formulario .vector-OjakPA {
-  background-color    : rgba(5,5,5,0);
-  height              : 25px;
-  left                : -0px;
+.formulario .vector-Q7LWbx {
+  background-color    : rgba(0,0,0,0);
+  height              : 42.50%;
+  left                : 54.86%;
   position            : absolute;
-  top                 : -0px;
-  width               : 57px;
+  top                 : 40.73%;
+  width               : 8.74%;
+}
+.formulario .vector-1GD8Cp {
+  background-color    : rgba(0,0,0,0);
+  height              : 43.33%;
+  left                : 64.98%;
+  position            : absolute;
+  top                 : 39.93%;
+  width               : 13.11%;
+}
+.formulario .vector-BGNHYM {
+  background-color    : rgba(0,0,0,0);
+  height              : 60.00%;
+  left                : 80.80%;
+  position            : absolute;
+  top                 : 40.23%;
+  width               : 12.57%;
+}
+.formulario .vector-x2mYqO {
+  background-color    : rgba(0,0,0,0);
+  height              : 57.50%;
+  left                : 95.99%;
+  position            : absolute;
+  top                 : 25.62%;
+  width               : 4.10%;
+}
+.formulario .vector-9Hg6wP {
+  background-color    : rgba(5,5,5,0);
+  height              : 53.33%;
+  left                : 2.11%;
+  position            : absolute;
+  top                 : 29.82%;
+  width               : 26.50%;
+}
+.formulario .vector-METvYJ {
+  background-color    : rgba(5,5,5,0);
+  height              : 41.67%;
+  left                : -0.21%;
+  position            : absolute;
+  top                 : 0px;
+  width               : 31.15%;
 }
 .formulario {
-  align-items         : center;
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--auto-palette-color-3);
   border-color        : rgba(255,255,255,0);
   border-style        : solid;
   border-width        : 1.0px;
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  height              : auto;
-  justify-content     : flex-start;
-  min-height          : 1270px;
+  height              : 100vh;
+  margin              : 0px;
+  min-height          : 1270.0px;
+  min-width           : 1440.0px;
   overflow            : hidden;
   position            : relative;
-  width               : 1440.0px;
+  width               : 100%;
 }
-.formulario .footer-GlQdDE {
-  align-items         : center;
-  background-color    : var(--auto-palette-color-2);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
+.formulario .bg-U9Ly62 {
+  background-color    : var(--auto-palette-color-1);
   height              : 370px;
-  justify-content     : flex-start;
-  margin-top          : 68px;
-  min-width           : 1440px;
-  padding             : 0 152.0px;
-  position            : relative;
-  width               : auto;
+  left                : -240px;
+  position            : absolute;
+  top                 : 900px;
+  width               : 1920px;
 }
-.formulario .c-2019-elipso-sketch-l8xomp {
+.formulario .c-2019-elipso-sketch-ldvZOV {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : auto;
-  margin-top          : 40px;
-  min-height          : 19px;
-  min-width           : 103px;
-  position            : relative;
+  left                : 152px;
+  position            : absolute;
   text-align          : left;
+  top                 : 1171px;
   width               : auto;
 }
-.formulario .span1-l8xomp {
+.formulario .span1-ldvZOV {
   color               : rgba(255,255,255,1.0);
-  font-family         : OpenSans, Helvetica, Arial, serif;
+  font-family         : Open Sans, Helvetica, Arial, serif;
   font-size           : 14.0px;
   font-weight         : 400;
   letter-spacing      : 0.20px;
 }
-.formulario .span2-l8xomp {
+.formulario .span2-ldvZOV {
   color               : rgba(255,255,255,0.870000004768);
   font-family         : Open Sans, Helvetica, Arial, serif;
   font-size           : 14.0px;
   font-weight         : 700;
   letter-spacing      : 0.20px;
 }
-.formulario .contact-info-M8zrUx {
-  align-items         : flex-start;
+.formulario .contact-info-k50pvg {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-bottom       : 51.0px;
-  margin-left         : 121px;
-  position            : relative;
-  width               : 271px;
-}
-.formulario .contact-info-gxgVOC {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-6);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-5);
   font-size           : 20.0px;
   height              : auto;
+  left                : 930px;
   line-height         : 30.0px;
-  min-height          : 30px;
-  min-width           : 139px;
-  position            : relative;
+  position            : absolute;
   text-align          : left;
+  top                 : 995px;
   width               : auto;
 }
-.formulario .a44-141-552-3000-ohaldO {
+.formulario .a44-141-552-3000-QChuaQ {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-7);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-6);
   font-size           : 18.0px;
   height              : auto;
+  left                : 971px;
   line-height         : 27.0px;
-  margin-left         : 20px;
-  min-height          : 27px;
-  position            : relative;
+  position            : absolute;
   text-align          : left;
+  top                 : 1060px;
   width               : 230px;
 }
-.formulario .envelope-e9ZqWy {
+.formulario .envelope-JNCgPf {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : 21px;
-  margin-top          : 0.99px;
-  position            : relative;
+  left                : 930px;
+  position            : absolute;
+  top                 : 1064px;
   width               : 21px;
 }
-.formulario .info-merkulov-design-nQ6QuK {
+.formulario .info-merkulov-design-ddDUhA {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-7);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-6);
   font-size           : 18.0px;
   height              : auto;
+  left                : 971px;
   line-height         : 27.0px;
-  margin-left         : 20px;
-  min-height          : 27px;
-  position            : relative;
+  position            : absolute;
   text-align          : left;
+  top                 : 1097px;
   width               : 230px;
 }
-.formulario .envelope-7Vi8BH {
+.formulario .envelope-viLI95 {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : 15px;
-  margin-top          : 2.0px;
-  position            : relative;
+  left                : 931px;
+  position            : absolute;
+  top                 : 1104px;
   width               : 20px;
 }
-.formulario .about-wN3641 {
-  align-items         : flex-start;
+.formulario .frame-MJx6nZ {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  min-height          : 151px;
-  position            : relative;
-  width               : 656px;
-}
-.formulario .frame-LFYFcg {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
   height              : 45px;
-  justify-content     : flex-start;
+  left                : 152px;
   overflow            : hidden;
-  position            : relative;
+  position            : absolute;
+  top                 : 980px;
   width               : 138px;
 }
-.formulario .group-DwBFvK {
-  align-items         : flex-start;
-  align-self          : flex-end;
+.formulario .vector-VURSQX {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 33px;
-  justify-content     : flex-start;
-  margin-bottom       : 0.0px;
-  margin-left         : 12px;
-  min-width           : 83px;
-  position            : relative;
-  width               : auto;
+  height              : 54.44%;
+  left                : 39.84%;
+  position            : absolute;
+  top                 : 28.86%;
+  width               : 12.32%;
 }
-.formulario .vector-Q5qtl0 {
+.formulario .vector-4e47Dj {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 25px;
-  margin-left         : 0px;
-  margin-top          : 1.31px;
-  position            : relative;
-  width               : 17px;
+  height              : 42.22%;
+  left                : 54.71%;
+  position            : absolute;
+  top                 : 40.86%;
+  width               : 9.06%;
 }
-.formulario .vector-wjjir0 {
-  align-self          : center;
+.formulario .vector-te1yv5 {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 19px;
-  margin-bottom       : 0.9px;
-  margin-left         : 3px;
-  position            : relative;
-  width               : 13px;
+  height              : 43.33%;
+  left                : 64.83%;
+  position            : absolute;
+  top                 : 39.93%;
+  width               : 13.41%;
 }
-.formulario .vector-WFGxlY {
-  align-self          : center;
+.formulario .vector-gTKpu5 {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 20px;
-  margin-bottom       : 1.24px;
-  margin-left         : 1px;
-  position            : relative;
-  width               : 19px;
+  height              : 60.00%;
+  left                : 80.74%;
+  position            : absolute;
+  top                 : 40.23%;
+  width               : 12.68%;
 }
-.formulario .vector-fNvV1O {
-  align-self          : flex-end;
+.formulario .vector-OYo8NC {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 27px;
-  margin-bottom       : -0.11px;
-  margin-left         : 3px;
-  position            : relative;
-  width               : 18px;
+  height              : 57.78%;
+  left                : 96.04%;
+  position            : absolute;
+  top                 : 25.48%;
+  width               : 3.99%;
 }
-.formulario .vector-SsjsfL {
+.formulario .vector-U7h1bN {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 26px;
-  margin-left         : 3px;
-  margin-top          : -0.22px;
-  position            : relative;
-  width               : 6px;
+  height              : 53.33%;
+  left                : 2.14%;
+  position            : absolute;
+  top                 : 29.82%;
+  width               : 26.45%;
 }
-.formulario .group-DjD92E {
+.formulario .vector-CQh3sa {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 37px;
-  margin-left         : 0px;
-  position            : relative;
-  width               : 42px;
+  height              : 42.22%;
+  left                : -0.22%;
+  position            : absolute;
+  top                 : -0.36%;
+  width               : 31.16%;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=OpenSans:400|Poppins:700,500|Open+Sans:700,400,600|Nunito:400|Font+Awesome%205%20Pro:200');
+@import url('https://fonts.googleapis.com/css?family=Font+Awesome%205%20Pro:200|Poppins:700,500|Open+Sans:400,700,600|Nunito:400');
 
 
 /* .anima-animate-appear prefix for appear animations */
@@ -127,7 +127,6 @@ a {
 }
 .font-class-2 {
   font-family         : "Open Sans", Helvetica, Arial, serif;
-  line-height         : 27.0px;
 }
 .font-class-3 {
   font-family         : Nunito, Helvetica, Arial, serif;
@@ -138,11 +137,12 @@ a {
   font-weight         : 700;
 }
 .font-class-5 {
-  font-family         : Open Sans, Helvetica, Arial, serif;
+  font-family         : Poppins, Helvetica, Arial, serif;
   font-weight         : 700;
 }
 .font-class-6 {
-  font-family         : Poppins, Helvetica, Arial, serif;
+  color               : var(--auto-palette-color-1);
+  font-family         : Open Sans, Helvetica, Arial, serif;
   font-weight         : 700;
 }
 .font-class-7 {
@@ -158,84 +158,270 @@ a {
   letter-spacing      : 0.20px;
 }
 .font-class-9 {
-  color               : var(--auto-palette-color-4);
+  color               : var(--auto-palette-color-3);
   font-family         : Poppins, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 500;
   letter-spacing      : 0.50px;
 }
 :root {
-  --auto-palette-color-1: rgba(0,0,0,0.600000023842);
-  --auto-palette-color-2: rgba(0,0,0,1.0);
-  --auto-palette-color-3: rgba(0,0,0,0.870000004768);
-  --auto-palette-color-4: rgba(255,255,255,1.0);
-  --auto-palette-color-5: rgba(0,0,0,0.670000016689);
-  --auto-palette-color-6: rgba(255,255,255,0.870000004768);
-  --auto-palette-color-7: rgba(255,255,255,0.670000016689);
+  --auto-palette-color-1: rgba(0,0,0,1.0);
+  --auto-palette-color-2: rgba(0,0,0,0.870000004768);
+  --auto-palette-color-3: rgba(255,255,255,1.0);
+  --auto-palette-color-4: rgba(0,0,0,0.670000016689);
+  --auto-palette-color-5: rgba(255,255,255,0.870000004768);
+  --auto-palette-color-6: rgba(255,255,255,0.670000016689);
 }
-.formularioconfirmado .auto-flex2-Y3OEMz {
-  align-items         : center;
+.formularioconfirmado .overlap-group-Y7zamN {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 27px;
-  justify-content     : flex-start;
-  margin-left         : 1.0px;
-  margin-top          : 35px;
-  position            : relative;
-  width               : auto;
-}
-.formularioconfirmado .overlap-group-O8AxFy {
-  align-self          : flex-end;
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : 256px;
-  margin-bottom       : -0.09px;
-  position            : relative;
+  left                : 554px;
+  position            : absolute;
+  top                 : 186px;
   width               : 199px;
 }
-.formularioconfirmado .auto-flex3-PsBq1l {
-  align-items         : center;
+.formularioconfirmado .button-6K8feB {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 27px;
-  justify-content     : flex-start;
-  margin-left         : 1.0px;
-  margin-top          : 10px;
-  position            : relative;
-  width               : auto;
-}
-.formularioconfirmado .auto-flex1-7NO6RL {
-  align-items         : center;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 50px;
-  justify-content     : flex-start;
-  position            : relative;
-  width               : auto;
-}
-.formularioconfirmado .auto-flex-DHbpMV {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
   height              : auto;
-  justify-content     : flex-start;
-  position            : relative;
-  width               : 656px;
+  left                : 572px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 1023px;
+  width               : 160px;
+}
+.formularioconfirmado .subscribe-to-our-new-NbxE9c {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-3);
+  font-size           : 22.0px;
+  height              : auto;
+  left                : 193px;
+  line-height         : 33.0px;
+  opacity             : 0.7;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1018px;
+  width               : auto;
+}
+.formularioconfirmado .envelope-FX1mNU {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-3);
+  height              : auto;
+  left                : 152px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1026px;
+  width               : auto;
+}
+.formularioconfirmado .rectangle-pwJWlx {
+  background-color    : var(--auto-palette-color-3);
+  height              : 2px;
+  left                : 152px;
+  position            : absolute;
+  top                 : 1068px;
+  width               : 390px;
+}
+.formularioconfirmado .amazing-works-t4iFqh {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-2);
+  font-size           : 52.0px;
+  height              : auto;
+  left                : 150px;
+  line-height         : 65.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 170px;
+  width               : 1142px;
+}
+.formularioconfirmado .projects-that-have-b-FP4FXO {
+  background-color    : rgba(0,0,0,0);
+  color               : var(--auto-palette-color-4);
+  font-size           : 20.0px;
+  height              : auto;
+  left                : 150px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 250px;
+  width               : 1142px;
+}
+.formularioconfirmado .subscribe-to-our-new-70xCkF {
+  background-color    : rgba(0,0,0,0);
+  border              : 0;
+  color               : var(--auto-palette-color-2);
+  font-size           : 22.0px;
+  height              : 33px;
+  left                : 149px;
+  line-height         : 33.0px;
+  padding             : 0;
+  position            : absolute;
+  resize              : none;
+  text-align          : left;
+  top                 : 519px;
+  width               : 462px;
+}
+.formularioconfirmado .subscribe-to-our-new-70xCkF::placeholder {
+  color               : rgba(0,0,0,0.522000002861);
+}
+.formularioconfirmado .subscribe-to-our-new-kDFHsm {
+  background-color    : rgba(0,0,0,0);
+  border              : 0;
+  color               : var(--auto-palette-color-2);
+  font-size           : 22.0px;
+  height              : 33px;
+  left                : 149px;
+  line-height         : 33.0px;
+  padding             : 0;
+  position            : absolute;
+  resize              : none;
+  text-align          : left;
+  top                 : 621px;
+  width               : 462px;
+}
+.formularioconfirmado .subscribe-to-our-new-kDFHsm::placeholder {
+  color               : rgba(0,0,0,0.522000002861);
+}
+.formularioconfirmado .subscribe-to-our-new-NAjKfE {
+  background-color    : rgba(0,0,0,0);
+  border              : 0;
+  color               : var(--auto-palette-color-2);
+  font-size           : 22.0px;
+  height              : 33px;
+  left                : 149px;
+  line-height         : 33.0px;
+  padding             : 0;
+  position            : absolute;
+  resize              : none;
+  text-align          : left;
+  top                 : 723px;
+  width               : 462px;
+}
+.formularioconfirmado .subscribe-to-our-new-NAjKfE::placeholder {
+  color               : rgba(0,0,0,0.522000002861);
+}
+.formularioconfirmado .rectangle-9pCJ9o {
+  background-color    : var(--auto-palette-color-2);
+  height              : 2px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 570px;
+  width               : 460px;
+}
+.formularioconfirmado .rectangle-CY0yGy {
+  background-color    : var(--auto-palette-color-2);
+  height              : 2px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 672px;
+  width               : 460px;
+}
+.formularioconfirmado .rectangle-xOfRUr {
+  background-color    : var(--auto-palette-color-2);
+  height              : 2px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 774px;
+  width               : 460px;
+}
+.formularioconfirmado .bg-seBfTU {
+  background-color    : var(--auto-palette-color-1);
+  border-radius       : 40.0px;
+  cursor              : pointer;
+  height              : 50px;
+  left                : 150px;
+  position            : absolute;
+  top                 : 812px;
+  width               : 260px;
+}
+.formularioconfirmado .button-GKxqsV {
+  background-color    : rgba(255,255,255,0);
+  height              : 13px;
+  left                : 256px;
+  position            : absolute;
+  top                 : 830px;
+  width               : 50px;
 }
 .formularioconfirmado .bg-QOBEvQ {
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--auto-palette-color-3);
+  height              : 120px;
+  left                : -240px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1920px;
+}
+.formularioconfirmado .logo-afiKGJ {
+  background-color    : rgba(255,255,255,0);
+  height              : 60px;
+  left                : 150px;
+  overflow            : hidden;
+  position            : absolute;
+  top                 : 30px;
+  width               : 183px;
+}
+.formularioconfirmado .vector-ZrB35Y {
+  background-color    : rgba(0,0,0,0);
+  height              : 54.17%;
+  left                : 39.85%;
+  position            : absolute;
+  top                 : 29.00%;
+  width               : 12.30%;
+}
+.formularioconfirmado .vector-Q7LWbx {
+  background-color    : rgba(0,0,0,0);
+  height              : 42.50%;
+  left                : 54.86%;
+  position            : absolute;
+  top                 : 40.73%;
+  width               : 8.74%;
+}
+.formularioconfirmado .vector-1GD8Cp {
+  background-color    : rgba(0,0,0,0);
+  height              : 43.33%;
+  left                : 64.98%;
+  position            : absolute;
+  top                 : 39.93%;
+  width               : 13.11%;
+}
+.formularioconfirmado .vector-BGNHYM {
+  background-color    : rgba(0,0,0,0);
+  height              : 60.00%;
+  left                : 80.80%;
+  position            : absolute;
+  top                 : 40.23%;
+  width               : 12.57%;
+}
+.formularioconfirmado .vector-x2mYqO {
+  background-color    : rgba(0,0,0,0);
+  height              : 57.50%;
+  left                : 95.99%;
+  position            : absolute;
+  top                 : 25.62%;
+  width               : 4.10%;
+}
+.formularioconfirmado .vector-9Hg6wP {
+  background-color    : rgba(5,5,5,0);
+  height              : 53.33%;
+  left                : 2.11%;
+  position            : absolute;
+  top                 : 29.82%;
+  width               : 26.50%;
+}
+.formularioconfirmado .vector-METvYJ {
+  background-color    : rgba(5,5,5,0);
+  height              : 41.67%;
+  left                : -0.21%;
+  position            : absolute;
+  top                 : 0px;
+  width               : 31.15%;
+}
+.formularioconfirmado .overlay-I7ZxAT {
+  background-color    : rgba(0,0,0,0.800000011921);
+  height              : 1420px;
+  left                : -240px;
+  position            : absolute;
+  top                 : 0px;
+  width               : 1920px;
+}
+.formularioconfirmado .bg-UEjSE3 {
+  background-color    : var(--auto-palette-color-3);
   border-radius       : 36.0px;
   height              : 590px;
   left                : 438px;
@@ -243,7 +429,7 @@ a {
   top                 : 120px;
   width               : 564px;
 }
-.formularioconfirmado .button-6K8feB {
+.formularioconfirmado .button-fSMId1 {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
@@ -257,15 +443,15 @@ a {
   top                 : 610px;
   width               : auto;
 }
-.formularioconfirmado .button-normal-gradient-violet-default-jlCOQq {
+.formularioconfirmado .button-normal-gradient-violet-default-z2pD3T {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
   height              : 50px;
   position            : relative;
   width               : 260px;
 }
-.formularioconfirmado .bg-PT1tpN {
-  background-color    : var(--auto-palette-color-2);
+.formularioconfirmado .bg-0W5MmM {
+  background-color    : var(--auto-palette-color-1);
   border-radius       : 40.0px;
   height              : 50px;
   left                : 0px;
@@ -273,9 +459,9 @@ a {
   top                 : 0px;
   width               : 260px;
 }
-.formularioconfirmado .button-HQ0bwx {
+.formularioconfirmado .button-UJocQ2 {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-4);
+  color               : var(--auto-palette-color-3);
   font-family         : Open Sans, Helvetica, Arial, serif;
   font-size           : 16.0px;
   font-weight         : 600;
@@ -287,42 +473,20 @@ a {
   top                 : 13px;
   width               : 124px;
 }
-.formularioconfirmado .ilistra-M81Zte {
-  background-color    : rgba(255,255,255,0);
-  height              : 272px;
-  left                : 554px;
-  position            : absolute;
-  top                 : 170px;
-  width               : 332px;
-}
-.formularioconfirmado .vector-FyoIWs {
+.formularioconfirmado .vector-ZTuCFs {
   background-color    : rgba(0,0,0,0);
   height              : 248px;
-  left                : 18px;
+  left                : 572px;
   pointer-events      : auto;
   position            : absolute;
-  top                 : 8px;
+  top                 : 178px;
   transition          : all 0.2s ease;
   width               : 296px;
 }
-.formularioconfirmado .vector-FyoIWs:hover {
+.formularioconfirmado .vector-ZTuCFs:hover {
   transform           : translate(0, -5px);
 }
-.formularioconfirmado .group-4y5zqD {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  height              : 272px;
-  justify-content     : flex-end;
-  left                : 0px;
-  min-width           : 332px;
-  position            : absolute;
-  top                 : 0px;
-  width               : auto;
-}
-.formularioconfirmado .group-VDHKPJ {
+.formularioconfirmado .group-Ho2qZs {
   background-color    : rgba(255,255,255,0);
   height              : 166px;
   left                : 0px;
@@ -330,16 +494,15 @@ a {
   top                 : 0px;
   width               : 122px;
 }
-.formularioconfirmado .group-nnUkPZ {
+.formularioconfirmado .group-xWfRCW {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : 185px;
-  margin-left         : 17px;
-  margin-top          : -0.36px;
-  position            : relative;
+  left                : 770px;
+  position            : absolute;
+  top                 : 170px;
   width               : 116px;
 }
-.formularioconfirmado .group-Six6Kr {
+.formularioconfirmado .group-IQSgYE {
   background-color    : rgba(255,255,255,0);
   height              : 206px;
   left                : 108px;
@@ -349,7 +512,7 @@ a {
 }
 .formularioconfirmado .interesse-confirmado-ZoOp5C {
   background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   font-size           : 40.0px;
   height              : auto;
   left                : 470px;
@@ -361,7 +524,7 @@ a {
 }
 .formularioconfirmado .enviaremos-um-alerta-assim-que-estivermos-prontos-para-captar-investimentos-ZsIE60 {
   background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-5);
+  color               : var(--auto-palette-color-4);
   font-size           : 18.0px;
   height              : auto;
   left                : 501px;
@@ -370,632 +533,193 @@ a {
   top                 : 530px;
   width               : 441px;
 }
-.formularioconfirmado .vector-Q5qtl0 {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 25px;
-  margin-left         : 0px;
-  margin-top          : 1.3px;
-  position            : relative;
-  width               : 17px;
-}
-.formularioconfirmado .vector-wjjir0 {
-  align-self          : center;
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 19px;
-  margin-bottom       : 0.9px;
-  margin-left         : 3px;
-  position            : relative;
-  width               : 13px;
-}
-.formularioconfirmado .vector-WFGxlY {
-  align-self          : center;
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 20px;
-  margin-bottom       : 1.24px;
-  margin-left         : 1px;
-  position            : relative;
-  width               : 19px;
-}
-.formularioconfirmado .vector-fNvV1O {
-  align-self          : flex-end;
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 27px;
-  margin-bottom       : -0.11px;
-  margin-left         : 3px;
-  position            : relative;
-  width               : 18px;
-}
-.formularioconfirmado .vector-SsjsfL {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 26px;
-  margin-left         : 3px;
-  margin-top          : -0.22px;
-  position            : relative;
-  width               : 6px;
-}
-.formularioconfirmado .group-DjD92E {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 37px;
-  margin-left         : 0px;
-  position            : relative;
-  width               : 42px;
-}
-.formularioconfirmado .vector-6j7MY7 {
-  background-color    : rgba(255,255,255,0);
-  height              : 24px;
-  left                : 3px;
-  position            : absolute;
-  top                 : 13px;
-  width               : 37px;
-}
-.formularioconfirmado .vector-nD3C8V {
-  background-color    : rgba(255,255,255,0);
-  height              : 19px;
-  left                : -0px;
-  position            : absolute;
-  top                 : -0px;
-  width               : 43px;
-}
-.formularioconfirmado .the-wise-man-therefo-sHmNvm {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-4);
-  flex-shrink         : 0;
-  font-size           : 18.0px;
-  height              : auto;
-  line-height         : 27.0px;
-  margin-top          : 25px;
-  min-height          : 81px;
-  position            : relative;
-  text-align          : left;
-  width               : 656px;
-}
-.formularioconfirmado .newsletter-GA1owD {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  position            : relative;
-  width               : 578px;
-}
-.formularioconfirmado .button-default-C4HLKH {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 50px;
-  justify-content     : flex-start;
-  margin-left         : 61px;
-  min-width           : 158px;
-  position            : relative;
-  width               : auto;
-}
-.formularioconfirmado .button-normal-stoke-default-miQcUM {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 50px;
-  position            : relative;
-  width               : 161px;
-}
-.formularioconfirmado .bg-HYiNcd {
-  background-color    : rgba(255,255,255,0);
-  border-color        : var(--auto-palette-color-4);
-  border-radius       : 40.0px;
-  border-style        : solid;
-  border-width        : 3.0px;
-  height              : 53px;
-  left                : -2px;
-  position            : absolute;
-  top                 : -2px;
-  width               : 161px;
-}
-.formularioconfirmado .button-C1ZDIw {
-  background-color    : rgba(255,255,255,0);
-  height              : auto;
-  left                : 0px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 13px;
-  width               : 160px;
-}
-.formularioconfirmado .subscribe-to-our-new-tOFCAO {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-4);
-  flex-shrink         : 0;
-  font-size           : 22.0px;
-  height              : auto;
-  line-height         : 33.0px;
-  margin-bottom       : 1.0px;
-  margin-left         : 19px;
-  min-height          : 33px;
-  min-width           : 328px;
-  opacity             : 0.7;
-  position            : relative;
-  text-align          : left;
-  width               : auto;
-}
-.formularioconfirmado .envelope-BVE4x1 {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-4);
-  flex-shrink         : 0;
-  height              : auto;
-  margin-top          : 2.0px;
-  min-height          : 20px;
-  min-width           : 32px;
-  position            : relative;
-  text-align          : left;
-  width               : auto;
-}
-.formularioconfirmado .rectangle-FQgQ7Z {
-  background-color    : var(--auto-palette-color-4);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 8px;
-  position            : relative;
-  width               : 390px;
-}
-.formularioconfirmado .body-Oceww9 {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  height              : auto;
-  justify-content     : flex-start;
-  left                : 150px;
-  position            : absolute;
-  top                 : 170px;
-  width               : 1142px;
-}
-.formularioconfirmado .amazing-works-37txR9 {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  font-size           : 52.0px;
-  height              : auto;
-  line-height         : 65.0px;
-  margin-bottom       : -5px;
-  min-height          : 60px;
-  position            : relative;
-  text-align          : left;
-  width               : 1142px;
-}
-.formularioconfirmado .projects-that-have-b-JgmHet {
-  background-color    : rgba(0,0,0,0);
-  color               : var(--auto-palette-color-5);
-  flex-shrink         : 0;
-  font-size           : 20.0px;
-  height              : auto;
-  margin-top          : 20px;
-  min-height          : 220px;
-  position            : relative;
-  text-align          : left;
-  width               : 1142px;
-}
-.formularioconfirmado .newsletter-EJFiuD {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-top          : 50px;
-  min-height          : 256px;
-  position            : relative;
-  width               : 461px;
-}
-.formularioconfirmado .subscribe-to-our-new-gvxRfx {
-  background-color    : rgba(0,0,0,0);
-  border              : 0;
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  font-size           : 22.0px;
-  height              : 33px;
-  line-height         : 33.0px;
-  margin-left         : -1.0px;
-  margin-top          : -1px;
-  padding             : 0;
-  position            : relative;
-  resize              : none;
-  text-align          : left;
-  width               : 462px;
-}
-.formularioconfirmado .subscribe-to-our-new-gvxRfx::placeholder {
-  color               : rgba(0,0,0,0.522000002861);
-}
-.formularioconfirmado .subscribe-to-our-new-TAR7Hn {
-  background-color    : rgba(0,0,0,0);
-  border              : 0;
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  font-size           : 22.0px;
-  height              : 33px;
-  line-height         : 33.0px;
-  margin-left         : -1.0px;
-  margin-top          : 49px;
-  padding             : 0;
-  position            : relative;
-  resize              : none;
-  text-align          : left;
-  width               : 462px;
-}
-.formularioconfirmado .subscribe-to-our-new-TAR7Hn::placeholder {
-  color               : rgba(0,0,0,0.522000002861);
-}
-.formularioconfirmado .subscribe-to-our-new-OxsfpJ {
-  background-color    : rgba(0,0,0,0);
-  border              : 0;
-  color               : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  font-size           : 22.0px;
-  height              : 33px;
-  line-height         : 33.0px;
-  margin-left         : -1.0px;
-  margin-top          : 49px;
-  padding             : 0;
-  position            : relative;
-  resize              : none;
-  text-align          : left;
-  width               : 462px;
-}
-.formularioconfirmado .subscribe-to-our-new-OxsfpJ::placeholder {
-  color               : rgba(0,0,0,0.522000002861);
-}
-.formularioconfirmado .rectangle-odu560 {
-  background-color    : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 18px;
-  position            : relative;
-  width               : 460px;
-}
-.formularioconfirmado .rectangle-nKBhHb {
-  background-color    : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 18px;
-  position            : relative;
-  width               : 460px;
-}
-.formularioconfirmado .rectangle-474nSj {
-  background-color    : var(--auto-palette-color-3);
-  flex-shrink         : 0;
-  height              : 2px;
-  margin-top          : 18px;
-  position            : relative;
-  width               : 460px;
-}
-.formularioconfirmado .button-normal-gradient-violet-default-JEzNHx {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 50px;
-  margin-top          : 36px;
-  position            : relative;
-  width               : 260px;
-}
-.formularioconfirmado .bg-govwHj {
-  background-color    : var(--auto-palette-color-2);
-  border-radius       : 40.0px;
-  cursor              : pointer;
-  height              : 50px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 260px;
-}
-.formularioconfirmado .button-hmiAry {
-  background-color    : rgba(255,255,255,0);
-  height              : 13px;
-  left                : 106px;
-  position            : absolute;
-  top                 : 18px;
-  width               : 50px;
-}
-.formularioconfirmado .header-6IR25F {
-  align-items         : center;
-  background-color    : var(--auto-palette-color-4);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  height              : 120px;
-  justify-content     : flex-start;
-  left                : -240px;
-  min-width           : 1920px;
-  padding             : 0 390.0px;
-  position            : absolute;
-  top                 : 0px;
-  width               : auto;
-}
-.formularioconfirmado .logo-wsuET1 {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 60px;
-  justify-content     : flex-start;
-  overflow            : hidden;
-  position            : relative;
-  width               : 183px;
-}
-.formularioconfirmado .group-Ku1qDa {
-  align-items         : flex-start;
-  align-self          : flex-end;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 44px;
-  justify-content     : flex-start;
-  margin-bottom       : 0.0px;
-  margin-left         : 17px;
-  min-width           : 110px;
-  position            : relative;
-  width               : auto;
-}
-.formularioconfirmado .vector-wCU8Ex {
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 33px;
-  margin-left         : 0px;
-  margin-top          : 1.82px;
-  position            : relative;
-  width               : 23px;
-}
-.formularioconfirmado .vector-N7L1xN {
-  align-self          : center;
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 26px;
-  margin-bottom       : 1.21px;
-  margin-left         : 4px;
-  position            : relative;
-  width               : 16px;
-}
-.formularioconfirmado .vector-OPRi7P {
-  align-self          : center;
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 26px;
-  margin-bottom       : 1.66px;
-  margin-left         : 2px;
-  position            : relative;
-  width               : 24px;
-}
-.formularioconfirmado .vector-DXl9lx {
-  align-self          : flex-end;
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 36px;
-  margin-bottom       : -0.14px;
-  margin-left         : 4px;
-  position            : relative;
-  width               : 23px;
-}
-.formularioconfirmado .vector-G3DfQU {
-  background-color    : rgba(0,0,0,0);
-  flex-shrink         : 0;
-  height              : 35px;
-  margin-left         : 4px;
-  margin-top          : -0.21px;
-  position            : relative;
-  width               : 8px;
-}
-.formularioconfirmado .group-E6d16m {
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 50px;
-  margin-left         : 0px;
-  position            : relative;
-  width               : 56px;
-}
-.formularioconfirmado .vector-zcExfp {
-  background-color    : rgba(5,5,5,0);
-  height              : 32px;
-  left                : 4px;
-  position            : absolute;
-  top                 : 18px;
-  width               : 49px;
-}
-.formularioconfirmado .vector-OjakPA {
-  background-color    : rgba(5,5,5,0);
-  height              : 25px;
-  left                : -0px;
-  position            : absolute;
-  top                 : -0px;
-  width               : 57px;
-}
-.formularioconfirmado .overlay-I7ZxAT {
-  background-color    : rgba(0,0,0,0.800000011921);
-  height              : 1420px;
-  left                : -240px;
-  position            : absolute;
-  top                 : 0px;
-  width               : 1920px;
-}
 .formularioconfirmado {
-  background-color    : var(--auto-palette-color-4);
+  background-color    : var(--auto-palette-color-3);
   border-color        : rgba(255,255,255,0);
   border-style        : solid;
   border-width        : 1.0px;
-  height              : 1080.0px;
+  height              : 100vh;
+  margin              : 0px;
+  min-height          : 1080.0px;
+  min-width           : 1440.0px;
   overflow            : hidden;
   position            : relative;
-  width               : 1440.0px;
+  width               : 100%;
 }
-.formularioconfirmado .footer-GlQdDE {
-  align-items         : center;
-  background-color    : var(--auto-palette-color-2);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
+.formularioconfirmado .bg-U9Ly62 {
+  background-color    : var(--auto-palette-color-1);
   height              : 490px;
-  justify-content     : flex-start;
   left                : -240px;
-  min-width           : 1920px;
-  padding             : 0 392.0px;
   position            : absolute;
   top                 : 930px;
-  width               : auto;
+  width               : 1920px;
 }
-.formularioconfirmado .c-2019-elipso-sketch-l8xomp {
+.formularioconfirmado .c-2019-elipso-sketch-ldvZOV {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : auto;
-  margin-top          : 40px;
-  min-height          : 19px;
-  min-width           : 103px;
-  position            : relative;
+  left                : 152px;
+  position            : absolute;
   text-align          : left;
+  top                 : 1321px;
   width               : auto;
 }
-.formularioconfirmado .span1-l8xomp {
+.formularioconfirmado .span1-ldvZOV {
   color               : rgba(255,255,255,1.0);
-  font-family         : OpenSans, Helvetica, Arial, serif;
+  font-family         : Open Sans, Helvetica, Arial, serif;
   font-size           : 14.0px;
   font-weight         : 400;
   letter-spacing      : 0.20px;
 }
-.formularioconfirmado .span2-l8xomp {
+.formularioconfirmado .span2-ldvZOV {
   color               : rgba(255,255,255,0.870000004768);
   font-family         : Open Sans, Helvetica, Arial, serif;
   font-size           : 14.0px;
   font-weight         : 700;
   letter-spacing      : 0.20px;
 }
-.formularioconfirmado .contact-info-M8zrUx {
-  align-items         : flex-start;
+.formularioconfirmado .contact-info-k50pvg {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-left         : 121px;
-  margin-top          : 69.0px;
-  position            : relative;
-  width               : 271px;
-}
-.formularioconfirmado .contact-info-gxgVOC {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-6);
-  flex-shrink         : 0;
+  color               : var(--auto-palette-color-5);
   font-size           : 20.0px;
   height              : auto;
+  left                : 930px;
   line-height         : 30.0px;
-  min-height          : 30px;
-  min-width           : 139px;
-  position            : relative;
+  position            : absolute;
   text-align          : left;
+  top                 : 1145px;
   width               : auto;
 }
-.formularioconfirmado .a44-141-552-3000-5ykAGe {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-7);
-  flex-shrink         : 0;
-  font-size           : 18.0px;
-  height              : auto;
-  line-height         : 27.0px;
-  margin-left         : 18px;
-  min-height          : 27px;
-  position            : relative;
-  text-align          : left;
-  width               : 230px;
-}
-.formularioconfirmado .envelope-7Vi8BH {
+.formularioconfirmado .a44-141-552-3000-QChuaQ {
   background-color    : rgba(255,255,255,0);
   color               : var(--auto-palette-color-6);
-  flex-shrink         : 0;
+  font-size           : 18.0px;
   height              : auto;
-  margin-top          : 1.0px;
-  min-height          : 20px;
-  min-width           : 32px;
-  position            : relative;
+  left                : 971px;
+  line-height         : 27.0px;
+  position            : absolute;
   text-align          : left;
+  top                 : 1210px;
+  width               : 230px;
+}
+.formularioconfirmado .envelope-JNCgPf {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-5);
+  height              : auto;
+  left                : 931px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1214px;
   transform           : rotate(90deg);
   width               : auto;
 }
-.formularioconfirmado .info-merkulov-design-zd9gUi {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-7);
-  flex-shrink         : 0;
-  font-size           : 18.0px;
-  height              : auto;
-  line-height         : 27.0px;
-  margin-left         : 18px;
-  min-height          : 27px;
-  position            : relative;
-  text-align          : left;
-  width               : 230px;
-}
-.formularioconfirmado .envelope-oOo5LW {
+.formularioconfirmado .info-merkulov-design-ddDUhA {
   background-color    : rgba(255,255,255,0);
   color               : var(--auto-palette-color-6);
-  flex-shrink         : 0;
+  font-size           : 18.0px;
   height              : auto;
-  margin-top          : 1.0px;
-  min-height          : 20px;
-  min-width           : 32px;
-  position            : relative;
+  left                : 971px;
+  line-height         : 27.0px;
+  position            : absolute;
   text-align          : left;
+  top                 : 1247px;
+  width               : 230px;
+}
+.formularioconfirmado .envelope-viLI95 {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-5);
+  height              : auto;
+  left                : 931px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1251px;
   width               : auto;
 }
-.formularioconfirmado .about-wN3641 {
-  align-items         : flex-start;
+.formularioconfirmado .frame-MJx6nZ {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  margin-top          : 60px;
-  min-height          : 151px;
-  position            : relative;
-  width               : 656px;
-}
-.formularioconfirmado .frame-LFYFcg {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
   height              : 45px;
-  justify-content     : flex-start;
+  left                : 152px;
   overflow            : hidden;
-  position            : relative;
+  position            : absolute;
+  top                 : 1130px;
   width               : 138px;
 }
-.formularioconfirmado .group-DwBFvK {
-  align-items         : flex-start;
-  align-self          : flex-end;
+.formularioconfirmado .vector-VURSQX {
   background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  flex-shrink         : 0;
-  height              : 33px;
-  justify-content     : flex-start;
-  margin-bottom       : 0.0px;
-  margin-left         : 12px;
-  min-width           : 83px;
-  position            : relative;
-  width               : auto;
+  height              : 54.44%;
+  left                : 39.84%;
+  position            : absolute;
+  top                 : 28.86%;
+  width               : 12.32%;
+}
+.formularioconfirmado .vector-4e47Dj {
+  background-color    : rgba(255,255,255,0);
+  height              : 42.22%;
+  left                : 54.71%;
+  position            : absolute;
+  top                 : 40.86%;
+  width               : 9.06%;
+}
+.formularioconfirmado .vector-te1yv5 {
+  background-color    : rgba(255,255,255,0);
+  height              : 43.33%;
+  left                : 64.83%;
+  position            : absolute;
+  top                 : 39.93%;
+  width               : 13.41%;
+}
+.formularioconfirmado .vector-gTKpu5 {
+  background-color    : rgba(255,255,255,0);
+  height              : 60.00%;
+  left                : 80.74%;
+  position            : absolute;
+  top                 : 40.23%;
+  width               : 12.68%;
+}
+.formularioconfirmado .vector-OYo8NC {
+  background-color    : rgba(255,255,255,0);
+  height              : 57.78%;
+  left                : 96.04%;
+  position            : absolute;
+  top                 : 25.48%;
+  width               : 3.99%;
+}
+.formularioconfirmado .vector-U7h1bN {
+  background-color    : rgba(255,255,255,0);
+  height              : 53.33%;
+  left                : 2.14%;
+  position            : absolute;
+  top                 : 29.82%;
+  width               : 26.45%;
+}
+.formularioconfirmado .vector-CQh3sa {
+  background-color    : rgba(255,255,255,0);
+  height              : 42.22%;
+  left                : -0.22%;
+  position            : absolute;
+  top                 : -0.36%;
+  width               : 31.16%;
+}
+.formularioconfirmado .the-wise-man-therefo-yKOgiq {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-3);
+  font-size           : 18.0px;
+  height              : auto;
+  left                : 152px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1200px;
+  width               : 656px;
+}
+.formularioconfirmado .bg-MTp8bP {
+  background-color    : rgba(255,255,255,0);
+  border-color        : var(--auto-palette-color-3);
+  border-radius       : 40.0px;
+  border-style        : solid;
+  border-width        : 3.0px;
+  height              : 53px;
+  left                : 571px;
+  position            : absolute;
+  top                 : 1009px;
+  width               : 161px;
 }
